@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAILWIND</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-blue-700 flex  justify-between p-5 media">
+    <div> <a href="" class="text-xl font-black text-white">Podvibe</a></div>
+    <div >
+        <div class="h-1 w-6 bg-white m-1"></div>
+        <div class="h-1 w-6 bg-white m-1"></div>
+        <div class="h-1 w-6 bg-white m-1"></div>
+    </div>
+    </div>
+    <nav  class="flex justify-between p-5" >
+        <div>
+            <a href="" class="text-xl font-black">Podvibe</a>
+        </div>
+        <div class="space-x-5 font-bold">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Pricing</a>
+            <a href="">Contact Us</a>
+        </div>
+        <div>
+            <a href="" class="bg-blue-700 text-white p-2 rounded-md hover:bg-white hover:text-blue-700 hover:border-2 hover:border-blue-700 hover:duration-500">Get Started</a>
+        </div>
+    </nav>
+    <div class="flex flex-wrap space-x-5 m-5 content-center items-center">
+        <div class="h-130 w-150 items-center content-center">
+            <h1 class="text-5xl font-bold text-blue-700">Listen Anywhere <br> Anytime Effortlessly</h1>
+            <p class="my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, fugit <br>suscipit repellat a omnis nihil sint, accusantium sit sed tenetur vel in <br>assumenda quidem aliquid.</p>
+            <div class="flex space-x-5">
+                <div class="bg-blue-700 text-white hover:bg-white hover:text-blue-700 hover:border-2 hover:border-blue-700 hover:duration-500 p-2 rounded-md">Start Listening</div>
+                <div class="border-solid border-blue-700 border-2 text-blue-700 p-2 rounded-md hover:bg-blue-700 hover:text-white hover:duration-500">View Channel</div>
+            </div>
+        </div>
+        <div class="h-130 w-150 bg-yellow-200 rounded-3xl relative">
+            <img src="robot.jpg" alt="" class="w-200 h-130 rounded-3xl ">
+            <img src="Music.jpg" alt="" class="w-50 absolute bottom-10 left-20">
+        </div>
+    </div>
+</body>
+</html>
